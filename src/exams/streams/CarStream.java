@@ -44,10 +44,10 @@ public class CarStream {
     }
 
     /**
-     * Vrátí nový seznam aut od jedné firmy
-     * @param cars
+     * Vrátí průměrnou cenu za auto od firmy "brand"
+     * @param cars vstupní seznam aut
      * @param brand Jméno firmy, která auto vyrábí (například Škoda)
-     * @return
+     * @return průměrnou cenu auta od firmy "brand"
      */
     private static double getAveragePrice(List<Car> cars, String brand) {
         return 0;
